@@ -1,7 +1,7 @@
 <div class="Desktop1" style="width: 100%; height: 100%; position: relative; background: white">
     <div class="Rectangle1" style="width: 1440px; height: 107px; left: 0px; top: 0px; position: absolute; background: #2596BE"></div>
     <img class="AiravataLogoShadow1" style="width: 80px; height: 69px; left: 24px; top: 19px; position: absolute" src="https://airavata.apache.org/assets/img/airavata-logo-shadow.png" />
-    <div class="AddStorage" style="width: 149px; height: 26px; left: 1259px; top: 27px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 900; letter-spacing: 3.60px; word-wrap: break-word">ADD STORAGE</div>
+    <button class="AddStorageButton" style="width: 160px; height: 26px; left: 1259px; top: 27px; position: absolute; color: white; font-size: 24px; font-family: Roboto; font-weight: 900; letter-spacing: 3.60px; word-wrap: break-word; background-color: #2596BE; border: none; border-radius: 5px;" onclick="redirectToNewPage()">ADD STORAGE</button>
     <div class="AvailableStorages" style="width: 463px; height: 49px; left: 24px; top: 361px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 900; letter-spacing: 3.60px; word-wrap: break-word">Available Storages</div>
     <div class="Group8" style="width: 1365px; height: 57px; left: 24px; top: 461px; position: absolute">
         <div class="Rectangle2" style="width: 1365px; height: 57px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 10px; border: 1px #E3E3E3 solid"></div>
@@ -73,3 +73,9 @@
         <div class="Search" style="color: #9C9C9C; font-size: 24px; font-family: Roboto; font-weight: 900; letter-spacing: 3.60px; word-wrap: break-word">Search</div>
     </div>
 </div>
+
+<script>
+    function redirectToNewPage() {
+        window.location.href = "add-storage.html"; // Replace "new_page.html" with the URL of your new HTML page
+    }
+</script>
