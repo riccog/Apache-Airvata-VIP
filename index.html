@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: white;
+    }
+    .Frame1 {
+      width: 234px; /* Adjust width for Frame1 */
+      height: 53px; /* Adjust height for Frame1 */
+      max-width: 100%; /* Ensure the box doesn't exceed the viewport width */
+      padding: 10px;
+      background: black;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .Enter {
+      width: 234px; /* Adjust width for Enter */
+      height: 53px; /* Adjust height for Enter */
+      color: white;
+      font-size: 20px; /* Adjust font size */
+      font-family: Roboto;
+      font-weight: 900;
+      letter-spacing: 2.25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #333; /* Change background color to differentiate from black */
+      border-radius: 10px;
+      border: none; /* Remove button border */
+      cursor: pointer; /* Add cursor pointer on hover */
+    }
+    .Image1 {
+      width: 413px;
+      height: 128px;
+      margin-bottom: 50px; /* Adjust margin-bottom for total space of 118px */
+    }
+  </style>
+</head>
+<body>
+  <img class="Image1" src="https://staging.testdrive.airavata.org/assets/powered-by-airavata-transparent.png" />
+  <div class="Frame1">
+    <button class="Enter" onclick="window.location.href='storage-home-page.html'">ENTER</button>
+  </div>
+</body>
+</html>
