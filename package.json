@@ -1,0 +1,16 @@
+{
+  "name": "glamorous-cup-determine-qtolu",
+  "productName": "glamorous-cup-determine-qtolu",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "mwhit",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "29.1.5"
+  }
+}
