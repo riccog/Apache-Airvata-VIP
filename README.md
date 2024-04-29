@@ -17,6 +17,9 @@ This is a user interface (UI) design implemented with Electron.js to browse stor
 - CSS
 - JavaScript
 
+## Demo
+https://gtvault-my.sharepoint.com/:v:/r/personal/tdamene3_gatech_edu/Documents/Attachments/milestone3video.webm?csf=1&web=1&e=eXctHc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ## Getting Started
 
 To get a local copy of this project and run it on your machine, follow these steps:
@@ -27,3 +30,4 @@ To get a local copy of this project and run it on your machine, follow these ste
 
 ```bash
 git clone https://github.com/your-username/storage-browser.git
+
